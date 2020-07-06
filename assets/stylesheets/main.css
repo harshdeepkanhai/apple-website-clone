@@ -147,13 +147,12 @@
 }
 
 .footer {
-  position: absolute;
-  bottom: 50px;
-  left: 400px;
   display: flex;
-  margin: 0 auto;
+  margin-top: 700px;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: flex-start;
-  width: 1400px;
+  width: 1200px;
   flex-wrap: wrap;
 }
 
@@ -161,7 +160,7 @@
   color: #6E6E6E;
   margin-top: 20px;
   font-size: 0.8rem;
-  width: 700px;
+  width: 600px;
 }
 
 .nav-footer {
