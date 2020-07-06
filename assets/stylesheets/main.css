@@ -37,6 +37,7 @@
 
 .nav-item:hover {
   background: #33333380;
+  cursor: pointer;
 }
 
 /* for hover of the logo */
@@ -70,6 +71,12 @@
   border-top: 1px solid #333;
   border-bottom: 1px solid #fff;
   background: #ffffff1a;
+  transition: width 0.2s;
+}
+
+.search-bar input:focus {
+  width: 170px;
+  background: #fff;
 }
 
 .hero {
