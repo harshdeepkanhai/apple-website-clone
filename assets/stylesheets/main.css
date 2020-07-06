@@ -138,3 +138,35 @@
 .promo-4 {
   background: url("../images/promo_supplier_responsibility.jpg") 50% 100% no-repeat;
 }
+
+.footer {
+  position: absolute;
+  bottom: 50px;
+  left: 400px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-start;
+  width: 1400px;
+  flex-wrap: wrap;
+}
+
+.footer p {
+  color: #6E6E6E;
+  margin-top: 20px;
+  font-size: 0.8rem;
+  width: 700px;
+}
+
+.nav-footer {
+  margin-top: 18px;
+  font-size: 0.8rem;
+}
+
+.footer a {
+  color: #08C;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
