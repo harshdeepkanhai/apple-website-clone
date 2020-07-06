@@ -71,3 +71,14 @@
   border-bottom: 1px solid #fff;
   background: #ffffff1a;
 }
+
+
+.hero {
+  background: url("../images/hero.jpg") 50% 100% no-repeat;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+}
