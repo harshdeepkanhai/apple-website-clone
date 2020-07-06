@@ -1,3 +1,74 @@
+/*
+  ========================================
+  Border Box  Layout
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
 
 /* NAVBAR */
 
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  width: fit-content;
+  margin: 100px auto 0 auto;
+  height: 40px;
+  border-radius: 5px;
+  background: linear-gradient(0deg, #5a5959 50%, #8a8787 50%, #949191);
+}
+
+.nav-item{
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  padding: 10px 0;
+}
+
+.nav-item:hover{
+  background: #33333380;
+}
+
+/* for hover of the logo */
+.nav-item:hover:nth-child(1) {
+  border-radius: 4px 0 0 4px;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 2px 2px #333;
+}
+
+.logo-apple {
+  height: 20px;
+}
+
+.icon-search {
+  position: relative;
+  left: 20px;
+  width: 10px;   
+}
+
+.search-bar input {
+  height: 20px;
+  width: 120px;
+  margin-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #fff;
+  background: #ffffff1a
+}
