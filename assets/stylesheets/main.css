@@ -109,3 +109,32 @@
 .icon-play {
   width: 30px;
 }
+
+.promo {
+  position: absolute;
+  margin: 470px auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.promo > * {
+  width: 360px;
+}
+
+.promo-1 {
+  background: url("../images/promo_iphone5s.jpg") 50% 100% no-repeat;
+}
+
+.promo-2 {
+  background: url("../images/promo_iphone5c.jpg") 50% 100% no-repeat;
+}
+
+.promo-3 {
+  background: url("../images/promo_30_years.jpg") 50% 100% no-repeat;
+}
+
+.promo-4 {
+  background: url("../images/promo_supplier_responsibility.jpg") 50% 100% no-repeat;
+}
