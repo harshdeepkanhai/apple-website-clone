@@ -1,57 +1,30 @@
-# Project Name
+# Apple website clone
 
-> One paragraph statement about the project.
+> This webpage is the clone of the old apple website
 
-![screenshot](./app_screenshot.png)
+![screenshot](./apple_clone.png)
 
-Additional description about the project and its features.
+This website uses linear gradient in menu and flex for layouts of menu.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5
+- CSS3
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+[Live Demo Link](https://raw.githack.com/harshdeepkanhai/apple-website-clone/feature/appleclone/index.html)
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Harshdeep Kanhau**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@harshdeepkanhai](https://github.com/harshdeepkanhai)
+- Twitter: [@harshdeepkanhai](https://twitter.com/harshdeepkanhai)
+- Linkedin: [harshdeepkanhai](https://linkedin.com/in/harshdeepkanhai)
 
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -65,9 +38,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- the Odin Project
+- [apple old website](https://web.archive.org/web/20140301004610/http://www.apple.com/)
 
 ## 📝 License
 

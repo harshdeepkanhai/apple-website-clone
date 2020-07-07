@@ -1,0 +1,194 @@
+/*
+  ========================================
+  Border Box  Layout
+  ========================================
+*/
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* General CSS */
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.position {
+  position: absolute;
+}
+
+.small-font {
+  font-size: 0.8rem;
+}
+
+/* Navbar */
+
+.nav-list {
+  width: fit-content;
+  margin: 40px auto;
+  border-radius: 5px;
+  background: linear-gradient(0deg, #5a5959 50%, #8a8787 50%, #949191);
+  z-index: 2;
+}
+
+.nav-item {
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  padding: 10px 0;
+}
+
+.nav-item:hover {
+  background: #33333380;
+  cursor: pointer;
+}
+
+/* for hover of the logo */
+
+.nav-item:hover:nth-child(1) {
+  border-radius: 4px 0 0 4px;
+}
+
+.nav-item a {
+  text-shadow: 2px 2px #333;
+}
+
+.logo-apple {
+  height: 20px;
+}
+
+.icon-search {
+  position: relative;
+  left: 20px;
+  width: 10px;
+}
+
+.search-bar input {
+  height: 20px;
+  width: 120px;
+  margin-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #fff;
+  background: #ffffff1a;
+  transition: width 0.2s;
+}
+
+.search-bar input:focus {
+  width: 170px;
+  background: #fff;
+}
+
+/* Hero Banner section */
+
+.hero {
+  background: url("../images/hero.jpg") 50% 100% no-repeat;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  height: 661px;
+  z-index: -1;
+}
+
+.hero a h1 {
+  margin-top: 200px;
+  font-size: 4rem;
+}
+
+.hero a h2 {
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+.hero a h3 {
+  margin-top: 40px;
+  font-size: 2rem;
+}
+
+.hero a h3:hover {
+  text-decoration: underline;
+}
+
+.icon-play {
+  width: 30px;
+}
+
+/* Promo section */
+
+.promo {
+  margin: 500px auto 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+
+.promo .h2 {
+  display: none;
+}
+
+.promo > * {
+  width: 360px;
+}
+
+.promo-1 {
+  background: url("../images/promo_iphone5s.jpg") 50% 100% no-repeat;
+}
+
+.promo-2 {
+  background: url("../images/promo_iphone5c.jpg") 50% 100% no-repeat;
+}
+
+.promo-3 {
+  background: url("../images/promo_30_years.jpg") 50% 100% no-repeat;
+}
+
+.promo-4 {
+  background: url("../images/promo_supplier_responsibility.jpg") 50% 100% no-repeat;
+}
+
+/* Footer section */
+
+.footer {
+  top: 820px;
+  left: 10%;
+  width: 88vw;
+  flex-wrap: wrap;
+}
+
+.footer p {
+  color: #6e6e6e;
+  margin-top: 10px;
+  width: 44vw;
+}
+
+.footer a {
+  color: #08c;
+}
+
+@media only screen and (min-width: 1440px) {
+  .footer {
+    top: 820px;
+    left: 20%;
+    width: 62vw;
+    flex-wrap: wrap;
+  }
+
+  .footer p {
+    color: #6e6e6e;
+    margin-top: 10px;
+    width: 31vw;
+  }
+}
