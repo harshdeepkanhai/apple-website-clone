@@ -36,8 +36,7 @@ a {
 
 .nav-list {
   width: fit-content;
-  top: 40px;
-  left: 25%;
+  margin: 40px auto;
   border-radius: 5px;
   background: linear-gradient(0deg, #5a5959 50%, #8a8787 50%, #949191);
   z-index: 2;
@@ -99,7 +98,7 @@ a {
   text-align: center;
   top: 0;
   width: 100%;
-  height: 600px;
+  height: 69.36%;
   z-index: -1;
 }
 
@@ -129,8 +128,7 @@ a {
 /* Promo section */
 
 .promo {
-  position: absolute;
-  margin: 600px auto 0 auto;
+  margin: 400px auto 0 auto;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -164,16 +162,16 @@ a {
 /* Footer section */
 
 .footer {
-  bottom: 100px;
-  left: 400px;
-  width: 1200px;
+  top: 720px;
+  left: 10%;
+  width: 88vw;
   flex-wrap: wrap;
 }
 
 .footer p {
   color: #6e6e6e;
   margin-top: 10px;
-  width: 600px;
+  width: 44vw;
 }
 
 .footer a {
