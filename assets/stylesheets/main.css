@@ -12,16 +12,11 @@
   box-sizing: border-box;
 }
 
-/* General CSS */
+/* General CSS*/
 
 .flex {
   display: flex;
   align-items: center;
-}
-
-.flex-2 {
-  display: flex;
-  justify-content: center;
 }
 
 a {
