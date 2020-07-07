@@ -13,7 +13,7 @@ This website uses linear gradient in menu and flex for layouts of menu.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/harshdeepkanhai/apple-website-clone/feature/appleclone/index.html)
+[Live Demo Link](https://raw.githack.com/harshdeepkanhai/apple-website-clone/master/index.html)
 
 
 
